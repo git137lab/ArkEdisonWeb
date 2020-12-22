@@ -253,6 +253,10 @@
 	  width: 100%;
     text-align: center;
 	  height: 100vh;
+	  background-image: url(../images/main-banner.svg);
+	  background-position: 50% bottom;
+	  background-repeat: no-repeat;
+		background-size: 100%;
 	  overflow: hidden;
 	}
 
@@ -442,45 +446,26 @@
 
 	/* main */
 	.main-banner-wrap h1 {
-    padding-top:50px;
-    text-align: center !important;
+    padding-top:100px;
+    text-align: center;
 	}
 
 	.main-banner-wrap h3 {
-	  padding-top: 0px;
-	  max-width: 100%;
+	  padding-top: 40px;
+	  max-width: 510px;
 	  margin: 0 20px;
-	  text-align: center !important;
+	  text-align: center;
 	}
 
 	.main-banner-wrap {
 	  width: 100%;
     text-align: center;
-	  height: auto;
+	  height: 100vh;
+	  background-image: url(../images/main-banner.svg);
+	  background-position: 50% bottom;
+	  background-repeat: no-repeat;
+		background-size: 100%;
 	  overflow: hidden;
-	}
-
-	.main-banner-wrap .class-info {
-	    display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	    flex-wrap: wrap;
-	    align-content: center;
-	    text-align: left;
-	    float: none !important;
-	    height: auto !important;
-	}
-
-	.main-banner-wrap .people-info {
-    float: none !important;
-    height: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-	}
-	.main-banner-wrap .people-info img {
-    width:100% !important;
-		height:auto !important;
 	}
 
 	.lac-wrap {
