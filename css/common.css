@@ -259,14 +259,16 @@ h3{
 .modal-wrapper {
   position: fixed;
   z-index: 9999;
-  top: 50%;
-	margin-top:-70px;
+  top: 10vh;
   left: 50%;
-  width: 32em;
-  margin-left: -16em;
-  background-color: #000;
+  width: 800px;
+	max-height:80vh;
+  margin-left: -400px;
+  background-color: #fff;
   box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+	overflow-y: scroll;
 }
+
 .modal-transition {
   transition: all 0.3s 0.12s;
   transform: translateY(-10%);
@@ -285,7 +287,7 @@ h3{
 
 .modal-content a{
   line-height:1.8;
-	color:#ddd;
+	color:#333;
 	font-weight:900;
 }
 
@@ -295,7 +297,7 @@ h3{
 
 .modal-header {
   position: relative;
-  background-color: #000;
+  background-color: #fff;
   box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
   border-bottom: 1px solid #444;
 }
@@ -328,7 +330,7 @@ h3{
 .modal-content > *:last-child {
   margin-bottom: 0;
 }
- 
+
 .bottomSide {
   top: 100%;
 }

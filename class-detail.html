@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ArkEdison</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="description">
+<meta name="keywords" content="keywords">
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:title" content="ArkEdison">
+<meta property="og:description" content="description">
+<meta property="og:image" content="images/og-image.png"/>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="canonical" href="">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/basic.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="external/xeicon/xeicon.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+
+	<!-- modal SELECT LANGUAGE -->
+	<div class="modal">
+		<div class="modal-overlay modal-toggle"></div>
+		<div class="modal-wrapper modal-transition">
+			<div class="modal-body">
+				<div class="modal-content">
+					<div class="class-detail-modal">
+						<div class="subject-inner">
+							<ul class="clear">
+								<li>
+									<p>
+									  <span>Class Title</span> 	스팀 6학년 1학기 수학특강 (월수반)
+									</p>
+									<p>
+									  <span>Master teacher</span> 	강민영
+									</p>
+									<p>
+										<span>Date of this lecture</span> 	2020. 12. 21 월요일 오후7시
+									</p>
+									<p>
+										<span>Topic</span> 	1단원. 소수의 나눗셈
+									</p>
+								</li>
+								<li>
+									<a href="#">수업 입장하기</a>
+								</li>
+							</ul>
+						</div>
+						<div class="homework-inner">
+							<h4>Homework</h4>
+							<form method="POST" action="" enctype="">
+                <input type="file" name="file[]" multiple>
+                <input class="button-primary" type="submit" value="Submit">
+	            </form>
+						</div>
+						<div class="class-materials-inner">
+							<h4>Class materials</h4>
+							<p>1.file name.pdf <a href="#none"><i class="xi-download"></i></a></p>
+							<p>2.수업자료.pdf <a href="#none"><i class="xi-download"></i></a></p>
+							<p>3.references.jpg <a href="#none"><i class="xi-download"></i></a></p>
+						</div>
+						<div class="class-replay-inner">
+							<h4>Class replay</h4>
+							<div style="width:100%; height:400px; line-height:400px; background:#ddd; text-align:center;">
+								video
+							</div>
+						</div>
+						<div class="class-inner-btn-wrap">
+							<ul class="clear">
+								<li><a href="">CANCEL</a></li>
+								<li><a href="" class="submit-btn">CONFIRM</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- // modal -->
+
+
+<!-- header -->
+<header>
+<div id="header-inner" class="-mov">
+	<a href="index.html" id="logo"><img src="images/logo.svg"></a>
+	<a href="#" class="closed-btn"><i class="xi-close-thin"></i></a>
+	<nav class="sub-menu">
+	<a href="#" class="explore-btn">All classes <i class="xi-caret-down-min"></i></a>
+	<ul class="sub-menu-inner clear">
+		<li>
+			<a href="#none" class="-mov sub-menu-a">Academic <i class="xi-angle-right-thin"></i></a>
+			<ul class="clear">
+				<li>
+					<a href="#none" class="-mov">· Test-prep</a>
+				</li>
+				<li>
+					<a href="#none" class="-mov">· Math</a>
+				</li>
+				<li>
+					<a href="#none" class="-mov">· Coding</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#none" class="-mov sub-menu-a">Career</a>
+		</li>
+		<li>
+			<a href="#none" class="-mov sub-menu-a">Creative <i class="xi-angle-right-thin"></i></a>
+			<ul class="clear">
+				<li>
+					<a href="#none" class="-mov">· Barista</a>
+				</li>
+				<li>
+					<a href="#none" class="-mov">· Wine</a>
+				</li>
+				<li>
+					<a href="#none" class="-mov">· Food</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="#none" class="-mov sub-menu-a">Gaming</a>
+		</li>
+		<li>
+			<a href="#none" class="-mov sub-menu-a">Language <i class="xi-angle-right-thin"></i></a>
+			<ul class="clear">
+				<li>
+					<a href="#none" class="-mov">· Korean Math</a>
+				</li>
+				<li>
+					<a href="#none" class="-mov">· Vietnamese Math</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	</nav>
+	<nav class="ico-menu">
+	<ul>
+		<li class="tooltip"><a href="#none" class="-mov"><i class="xi-globus"></i> Language</a>
+			<div class="tooltipMenu bottomSide">
+        <ul>
+          <li><a href="#none">CHINESE</a><br></li>
+          <li class="selected"><a href="#none">ENGLISH</a></li>
+          <li><a href="#none">JAPANESE</a></li>
+          <li><a href="#none">KOREAN</a></li>
+        </ul>
+      </div>
+		</li>
+	  <li><a href="mypage.html" class="-mov"><i class="xi-user-address"></i> My page</a></li>
+		<li><a href="index.html" class="-mov"><i class="xi-user"></i> Log out</a></li>
+	</ul>
+	</nav>
+</div>
+</header>
+<!-- content -->
+<section>
+<div class="subpages-wrap">
+	<div class="subpages-wrap-inner">
+		<div class="class-title">
+				<p class="title">
+					스팀 6학년 1학기 수학특강 (월수반)
+				</p>
+				<p class="tag-wrap">
+					<span class="green-tag tag">
+					Live Class </span>
+				</p>
+				<p class="sub-title">
+					<span>Teacher <b>강민영</b></span>
+				</p>
+				<p class="sub-title">
+					<span>Schedule  <b>월, 수, 금 오후 7시</b></span>
+				</p>
+		</div>
+		<div class="class-detail-inner">
+			<ul class="clear">
+				<li class="class-detail-list">
+					<div class="title">
+						<h3>Curriculum</h3>
+						<p class="info">
+						<span class="green-btn round-btn"></span> Class
+						<span class="yellow-btn round-btn"></span> Tutoring
+						</p>
+					</div>
+					<!-- board-list -->
+					<table>
+					  <colgroup>
+					    <col class="select">
+					    <col class="no">
+							<col class="date">
+							<col class="time">
+					    <col class="title">
+					    <col class="type">
+					  </colgroup>
+					  <thead>
+					    <tr>
+					      <th><input class="check all" type="checkbox"></th>
+					      <th>회차</th>
+								<th>날짜</th>
+								<th>시간</th>
+					      <th>수업 제목</th>
+					      <th>유형</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>1</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념1> (자연수)÷(자연수), (분수)÷(자연수), 연습 문제</a></td>
+					      <td><span class="green-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>2</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념1> 각기둥(1)，(2)/ 각기둥의 전개도/ 각기둥의 전개도 그리기</a></td>
+					      <td><span class="yellow-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>3</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념1> (자연수)÷(자연수), (분수)÷(자연수), 연습 문제</a></td>
+					      <td><span class="green-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>4</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념2> 각뿔(1)，(2)</a></td>
+					      <td><span class="yellow-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>5</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념1> (자연수)÷(자연수), (분수)÷(자연수), 연습 문제</a></td>
+					      <td><span class="green-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>6</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념2> 각뿔(1)，(2)</a></td>
+					      <td><span class="yellow-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>7</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념2> 각뿔(1)，(2)</a></td>
+					      <td><span class="yellow-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>8</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념1> (자연수)÷(자연수), (분수)÷(자연수), 연습 문제</a></td>
+					      <td><span class="green-btn round-btn"></span></td>
+					    </tr>
+							<tr>
+					      <td><input class="check" type="checkbox"></td>
+					      <td>9</td>
+								<td>2020.12.14 월요일</td>
+								<td>오후 1시</td>
+					      <td><a href="#" class="modal-toggle">개념2> 각뿔(1)，(2)</a></td>
+					      <td><span class="yellow-btn round-btn"></span></td>
+					    </tr>
+					  </tbody>
+					</table>
+					<div class="page-box">
+					  <a class="btn" href="#">&lt;&lt;</a>
+					  <a class="btn" href="#">&lt;</a>
+
+					  <!--  숫자 버튼  -->
+					  <a class="btn number" href="#">1</a>
+					  <a class="btn number" href="#">2</a>
+					  <a class="btn number on" href="#">3</a>
+					  <a class="btn number" href="#">4</a>
+					  <a class="btn number" href="#">5</a>
+
+					  <a class="btn" href="#">&gt;</a>
+					  <a class="btn" href="#">&gt;&gt;</a>
+					</div>
+					<!-- board-list -->
+				</li>
+				<li class="class-detail-info">
+					<div class="class-detail-info-inner">
+						<div class="thumb" style="background-image:url(images/class.jpg);">
+						</div>
+						<div class="info-inner">
+							<h3>Class description</h3>
+							<p>
+								-  본 강의는 6학년 1학기 수학 개념을 다지는 과정입니다.
+							</p>
+							<p>
+								-  5학년 2학기 수학 학습을 완료하고 6학년 1학기 수학을 처음 학습하고자 하는 학생에게 적합합니다.
+							</p>
+							<p>
+								-  준비물 : 교재, 노트북/데스크탑, 마이크, 웹카메라, 네트워크 환경
+							</p>
+							<p>
+								-  교재 : <디딤돌 초등수학 기본+응용 6학년 1학기>
+							</p>
+						</div>
+
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</section>
+<!-- footer -->
+<footer id="footer">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="display: block;">
+  <path fill="#861CE4" fill-opacity="1" d="M0,128L30,122.7C60,117,120,107,180,101.3C240,96,300,96,360,122.7C420,149,480,203,540,234.7C600,267,660,277,720,250.7C780,224,840,160,900,117.3C960,75,1020,53,1080,74.7C1140,96,1200,160,1260,170.7C1320,181,1380,139,1410,117.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+ </svg>
+ <div class="footer-inner">
+ 		<a href="index.html" id="logo"><img src="images/logo-white.svg"></a>
+		<p>
+			Lorem ipsum dolor sit amet,<br>
+			consectetur adipisicing elit, sed
+		</p>
+		<p>
+			NPX Teraark   Contact : info@teraark.com
+		</p>
+		<p>
+      <a href="termsofuse.html">Terms of Use</a>  / <a href="privacypolicy.html">Privacy Policy</a>   / <a href="locations.html">Locations</a>
+		</p>
+		<p>
+			copyrights all rights reserved by Arkedison
+		</p>
+ </div>
+</footer>
+<script src="external/jquery/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out'
+  });
+</script>
+<script>
+	// modal toggle
+	$('.modal-toggle').on('click', function(e) {
+	  e.preventDefault();
+	  $('.modal').toggleClass('is-visible');
+	});
+</script>
+<script type="text/javascript">
+	$('.sub-menu').hover(function(){
+	     $('.sub-menu-inner').show();  //find the div INSIDE this li
+	},function(){
+	     $('.sub-menu-inner').hide();
+	});
+
+	$( ".closed-btn" ).click(function() {
+		$(".sub-menu").removeClass("sub-menu-on");
+		$('.sub-menu-inner').hide();
+		if ($(window).width() < 767) {
+			$('.closed-btn').hide();
+		}
+	});
+
+	$( ".sub-menu" ).click(function() {
+		$(".sub-menu").addClass("sub-menu-on");
+		$('.sub-menu-inner').show();
+		if ($(window).width() < 767) {
+			$('.closed-btn').show();
+		}
+	});
+
+</script>
+</body>
+</html>
