@@ -585,22 +585,10 @@ nav ul li:hover .tooltipMenu{
 .class-title{
 	padding:30px;
 	border-top:2px solid #861CE4;
-	background: linear-gradient(-45deg, #F9F8FF, #d9b2fb, #F9F8FF, #d9b2fb);
+	background: #F9F8FF;
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
 .class-title .title{
  width:100%;
@@ -666,8 +654,9 @@ nav ul li:hover .tooltipMenu{
 }
 
 .class-detail-inner a {
-  text-decoration: none;
-  color: #333;
+  text-decoration: underline;
+  color: #1d8fff;
+
 }
 
 .class-detail-inner a:hover {color: #861CE4;}
